@@ -13,7 +13,10 @@ const [categories,setCategories] = useState(['Dragon Ball'])
 
   return (
     <div>
-        <div className="title">GitExpertApp</div>
+        <div className="title">
+        <img src="img/OIP.jpg" alt="/" width="80px" height="80px" />
+            <div>Giphy</div>
+        </div>
         <div className=" py-6">
             <AddCategory
              onNewCategory = {(value) => addToCategory (value)}

@@ -5,14 +5,14 @@
 @layer base{
     
     .title {
-        @apply text-4xl font-extrabold text-white/70  flex items-center justify-center
+        @apply text-[80px] font-extrabold text-white uppercase mx-auto flex justify-center
     }
     .name{
         @apply text-3xl text-white font-extrabold ml-3 my-3
     }
    
     body {
-        @apply bg-black my-5 mx-auto text-white ;
+        @apply bg-black/100 my-5 mx-auto text-white ;
     }
     .search {
       @apply   bg-gray-100 py-3 ml-3 text-xl rounded px-3 w-[35%] text-black
